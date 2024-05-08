@@ -4,7 +4,7 @@ import Login from "../pages/Login";
 import Todolist from "../pages/Todolist";
 
 const router = createBrowserRouter([
-  { path: "/login", element: <Login /> },
+  { path: "/", element: <Login /> },
   { path: "/todolist", element: <Todolist /> },
 ]);
 
